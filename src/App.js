@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Test from './Test';
+import Canvas from './Canva';
+
 
 function App() {
   return (
@@ -18,7 +20,7 @@ function App() {
         >
           Learn React
         </a>
-        <Test></Test>
+        <Canvas/>
       </header>
     </div>
   );
